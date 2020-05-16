@@ -50,7 +50,7 @@
         <section id="welcome" class="section-area">
             <div class="row bg-color">
                 <div class="col my-auto">
-                    <h1 class="text-shadow header-text text-center text-light wow bounceInDown">Welcome to my portfolio</h1>
+                    <h1 class="text-shadow header-text text-center text-light wow"><div id="text"></div></h1>
                 </div>
             </div>
             
@@ -340,6 +340,21 @@
                 $(this).closest('.nav-link').addClass('active');
                 });
             });
+        </script>
+
+        <script>
+            var i=0,text;
+            text='Welcome to my portfolio';
+            function type(){
+                if(i<text.length){
+                    document.getElementById('text').innerHTML += text.charAt(i);
+                    i++
+                    setTimeout(type,100);
+                }
+
+            }
+
+            type()
         </script>
 
     </body>

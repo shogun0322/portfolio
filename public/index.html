@@ -9,9 +9,6 @@
         <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet">  
         <!-- ANIMATION -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> 
-
-        
-
         <!-- GetBootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -19,9 +16,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <!-- Font awesome -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
     </head>
-
     <body>
         <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="nav-bar">
             <a class="navbar-brand" href="#welcome">Panuwat Suwanritdej</a>
@@ -30,9 +25,6 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <!-- <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#about" rel="noopener noreferrer">About</a>
                     </li>
@@ -45,8 +37,6 @@
                 </ul>
             </div>
         </nav>
-
-
         <section id="welcome" class="section-area">
             <div class="row bg-color">
                 <div class="col my-auto">
@@ -55,9 +45,7 @@
             </div>
             
         </section>
-
         <section id="about" class="section-area">
-            
             <div class="bg-color row min-vh-10">
                 <div class="col-xl-4 col-sm-10 m-auto py-5">
                     <h1 class="col-12 text-shadow header-text text-center text-light wow bounceInDown my-5">About me</h1>
@@ -116,7 +104,6 @@
                                     <div class="timeline-content">
                                         <h3 class="title">Bangkok University</h3>
                                         <h3 class="title">Information and technology</h3>
-                                        <!-- <h3 class="title">Computer Science</h3> -->
                                         <p class="description">
                                             Computer Science
                                         </p>
@@ -130,8 +117,7 @@
                                         <h3 class="title">English-Mathematics</h3>
 
                                         <p class="description">
-                                            <!-- English-Mathematics -->
-                                            &nbsp
+                                            &nbsp;
                                         </p>
                                     </div>
                                 </div>
@@ -175,7 +161,6 @@
                 <div class="container mt-5">
                     <div class="row">
                         <div class="col-12 text-center wow bounceInUp">
-                            <!-- <h2 class="section-heading text-uppercase">Recent Projects</h2> -->
                             <h1 class="display-4 text-white text-shadow header-text">DEVELOP WEBSITE</h1>
                         </div>
                     </div>
@@ -249,7 +234,6 @@
                             <h1 class="display-5 text-white text-shadow header-text">Work From Home WEBSITE</h1>
                             <h2 class="display-5 text-white text-shadow text-sub-header">Full stack : Node.js</h2>
                             <h2 class="display-5 text-white text-shadow text-sub-header">Database : MySQL</h2>
-
                         </div>
                         <div class="row mt-5 text-center">
                             <div class="col-md-6 col-sm-12">
@@ -280,16 +264,12 @@
 
             </div>
         </section>
-
         <section id="footer">
             <div class="w-100 h-1 bg-dark row">
                 <p class="text-center w-100 my-auto text-white">© 2020 Panuwat Suwanritdej. All Rights Reserved. Privacy Policy.</p>
             </div>
         </section>
-
-
         <!-- ANIMATION -->
-
         <script src = "https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
         <script>
             var wow = new WOW(
@@ -310,29 +290,6 @@
             wow.init();
         </script>
         <!-- END ANIMATION -->
-    
-        <script>
-
-            // Initial state
-            var scrollPos = 0;
-            // adding scroll event
-            window.addEventListener('scroll', function(){
-            // detects new state and compares it with the new one
-            if ((document.body.getBoundingClientRect()).top > scrollPos){
-                // document.getElementById('info-box').setAttribute('data-scroll-direction', 'UP');
-                console.log("up");
-            }
-            else{
-                // document.getElementById('info-box').setAttribute('data-scroll-direction', 'DOWN');
-                console.log("down");
-            }
-                // saves the new position for iteration.
-                scrollPos = (document.body.getBoundingClientRect()).top;
-            });
-
-
-        </script>
-
         <script>
             $(function(){
                 $('body').on('click', '.nav-link', function(){
@@ -341,20 +298,19 @@
                 });
             });
         </script>
-
         <script>
             var i=0,text;
             text='Welcome to my portfolio';
-            function type(){
-                if(i<text.length){
-                    document.getElementById('text').innerHTML += text.charAt(i);
-                    i++
-                    setTimeout(type,100);
+            $(document).ready(function(){
+                function type(){
+                    if(i<text.length){
+                        document.getElementById('text').innerHTML += text.charAt(i);
+                        i++
+                        setTimeout(type,100);
+                    }
                 }
-
-            }
-
-            type()
+                type()
+            });
         </script>
 
     </body>

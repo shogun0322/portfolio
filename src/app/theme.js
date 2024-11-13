@@ -26,6 +26,10 @@ const theme = createTheme({
       fontSize: "1rem",
       color: "#a1a1a1",
     },
+
+    aboutTitle: {
+      fontSize: "1.3rem",
+    },
   },
 });
 

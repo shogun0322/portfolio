@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const imageContainer = {
   width: "90%",
-  height: "90dvh",
+  height: { xs: "20dvh", md: "90dvh" },
   overflow: "hidden",
-  borderRadius: "20px",
-  position: "sticky",
-  top: "5dvh",
+  position: { md: "sticky" },
+  borderRadius: { md: "20px" },
+  top: { xs: "25dvh", md: "5dvh" },
 };
 
 const imageList = [

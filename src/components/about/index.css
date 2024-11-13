@@ -16,7 +16,7 @@
 
 .g-container {
   width: 100%;
-  height: 50dvh;
+  height: 70dvh;
   display: grid;
   gap: 1rem;
   grid-template-areas:
@@ -27,7 +27,7 @@
   grid-template-rows: repeat(50%, 2);
 
   @media only screen and (max-width: 600px) {
-  height: 100dvh;
+    height: 130dvh;
 
     grid-template-areas:
       "t-1"

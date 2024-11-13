@@ -27,7 +27,7 @@
   grid-template-rows: repeat(50%, 2);
 
   @media only screen and (max-width: 769px) {
-    height: 130dvh;
+    height: 150dvh;
 
     grid-template-areas:
       "t-1"

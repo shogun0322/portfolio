@@ -11,16 +11,21 @@ const theme = createTheme({
       main: "#ffffff",
       text: "#a1a1a1",
     },
-    
   },
 
   typography: {
     title: {
       fontWeight: 500,
       fontSize: "4rem",
+      "@media (max-width:500px)": {
+        fontSize: "3rem",
+      },
     },
     subTitle: {
       fontSize: "3rem",
+      "@media (max-width:500px)": {
+        fontSize: "2rem",
+      },
     },
     subTitle2: {
       fontSize: "1rem",
@@ -29,6 +34,10 @@ const theme = createTheme({
 
     aboutTitle: {
       fontSize: "1.3rem",
+    },
+
+    download: {
+      fontSize: "1.2rem",
     },
   },
 });

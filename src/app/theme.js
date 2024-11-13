@@ -11,6 +11,7 @@ const theme = createTheme({
       main: "#ffffff",
       text: "#a1a1a1",
     },
+    
   },
 
   typography: {

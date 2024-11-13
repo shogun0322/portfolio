@@ -16,7 +16,7 @@ export default function About() {
           width: "100%",
           height: "100%",
           borderRadius: 3,
-          padding: 3,
+          padding: { xs: 1, md: 3 },
           border: "1px solid #1f1f1f",
           backgroundImage:
             "radial-gradient(farthest-side at top right, #1f1f1f, #141414);",

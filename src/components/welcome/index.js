@@ -11,7 +11,9 @@ export default function Welcome() {
         }}
       >
         <Typography variant="title">Panuwat Suwanritdej</Typography>
-        <Typography variant="subTitle">Software Engineer</Typography>
+        <Typography variant="subTitle" sx={{ mt: 3 }}>
+          Software Engineer
+        </Typography>
         <Box sx={{ mt: 3 }}>
           <Typography variant="subTitle2">
             I&apos;m a Software Engineer with almost 5 years of experience
@@ -21,6 +23,20 @@ export default function Welcome() {
             me to manage both relational and non-relational data effectively.
             For a unit test expertise in Jest
           </Typography>
+        </Box>
+        <Box sx={{ mt: 2 }}>
+          <Typography variant="download">Tel: +66 0957682515</Typography>
+        </Box>
+
+        <Box mt={2}>
+          <a
+            href="./assets/file/Resume-Panuwat_Suwanritdej.pdf"
+            download="Resume-Panuwat_Suwanritdej"
+          >
+            <Typography variant="download">
+              Click here to Download Resume
+            </Typography>
+          </a>
         </Box>
       </Box>
     </Container>

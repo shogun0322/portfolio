@@ -15,9 +15,11 @@ export default function Welcome() {
         <Box sx={{ mt: 3 }}>
           <Typography variant="subTitle2">
             I&apos;m a Software Engineer with almost 5 years of experience
-            specializing in both front-end and back-end development using
-            React, React Native, Next.js, Apollo GraphQL, Node.js, and
-            Micro-service
+            specializing in both front-end and back-end development using React,
+            React Native, Next.js, Apollo GraphQL, Node.js, and Micro-service My
+            database expertise includes MongoDB, PostgreSQL, and Redis, allowing
+            me to manage both relational and non-relational data effectively.
+            For a unit test expertise in Jest
           </Typography>
         </Box>
       </Box>

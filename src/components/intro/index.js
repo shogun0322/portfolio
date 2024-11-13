@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const imageContainer = {
   width: "90%",
-  height: { xs: "20dvh", md: "90dvh" },
+  height: { xs: "20dvh", sm: "40dvh", md: "90dvh" },
   overflow: "hidden",
   position: { md: "sticky" },
   borderRadius: { md: "20px" },
@@ -11,13 +11,13 @@ const imageContainer = {
 };
 
 const imageList = [
-  "./assets/intro/mdss.jpg",
-  "./assets/intro/mettlink.jpg",
-  "./assets/intro/floor-plan.jpg",
-  "./assets/intro/kt-axa.jpg",
-  "./assets/intro/my-wealth+.jpg",
-  "./assets/intro/swd-pass.jpg",
-  "./assets/intro/swd-cms.jpg",
+  "./assets/intro/mdss.webp",
+  "./assets/intro/mettlink.webp",
+  "./assets/intro/floor-plan.webp",
+  "./assets/intro/kt-axa.webp",
+  "./assets/intro/my-wealth+.webp",
+  "./assets/intro/swd-pass.webp",
+  "./assets/intro/swd-cms.webp",
 ];
 
 export default function Intro() {
@@ -38,8 +38,8 @@ export default function Intro() {
             <Image
               alt=""
               src={row}
-              height={900}
-              width={1600}
+              height={716}
+              width={1296}
               layout="responsive"
             />
           </Box>

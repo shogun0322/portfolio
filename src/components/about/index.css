@@ -1,0 +1,42 @@
+.item1 {
+  grid-area: t-1;
+}
+.item2 {
+  grid-area: t-2;
+}
+.item3 {
+  grid-area: t-3;
+}
+.item4 {
+  grid-area: t-4;
+}
+.item5 {
+  grid-area: t-5;
+}
+
+.g-container {
+  width: 100%;
+  height: 50dvh;
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "t-1 t-1 t-2 t-3"
+    "t-1 t-1 t-4 t-5";
+
+  grid-template-columns: repeat(25%, 4);
+  grid-template-rows: repeat(50%, 2);
+
+  @media only screen and (max-width: 600px) {
+  height: 100dvh;
+
+    grid-template-areas:
+      "t-1"
+      "t-2"
+      "t-3"
+      "t-4"
+      "t-5";
+
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(20%, 5);
+  }
+}

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const imageContainer = {
   width: "90%",
-  height: { xs: "20dvh", sm: "40dvh", md: "90dvh" },
+  height: { xs: "30dvh", sm: "40dvh", md: "90dvh" },
   overflow: "hidden",
   position: { md: "sticky" },
   borderRadius: { md: "20px" },

@@ -54,7 +54,7 @@ export default function About() {
       <Box className="g-container">
         <div className="item1">
           <Item>
-            <Typography sx={{ alignSelf: "flex-start" }}>Design Api</Typography>
+            <Typography sx={{ alignSelf: "flex-start" }}>Create Api</Typography>
             <img alt="" style={imageStyle} src="./assets/about/api.jpg" />
           </Item>
         </div>

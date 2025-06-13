@@ -49,6 +49,7 @@ export default function Work() {
           return (
             <div className="archive-item-project cursor-pointer">
               <Image
+                loading="lazy"
                 src={image}
                 alt="Example"
                 width={1600}

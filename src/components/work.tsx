@@ -47,7 +47,7 @@ export default function Work() {
         {work.map((row) => {
           const { image, title, description, link } = row;
           return (
-            <Link className="archive-item-project cursor-pointer" href={link}>
+            <div className="archive-item-project cursor-pointer">
               <Image
                 src={image}
                 alt="Example"
@@ -58,7 +58,7 @@ export default function Work() {
               />
               <div className="text-l font-bold">{title}</div>
               <div className="text-m text-stone-400">{description}</div>
-            </Link>
+            </div>
           );
         })}
       </div>

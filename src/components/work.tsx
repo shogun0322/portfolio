@@ -43,7 +43,7 @@ export default function Work() {
   return (
     <div className="container">
       <div className="text-xl font-bold mb-4">What I’ve Built</div>
-      <div className="grid grid-cols-2 gap-medium-large">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-medium-large">
         {work.map((row) => {
           const { image, title, description, link } = row;
           return (

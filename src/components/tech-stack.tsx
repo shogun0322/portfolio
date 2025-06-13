@@ -1,7 +1,7 @@
 export default function TechStack() {
   return (
     <div className="container flex flex-row gap-large h-screen items-center">
-      <div className="flex-1 text-left text-l font-bold">
+      <div className="flex-1 text-left text-l font-bold hidden md:block">
         I’m a software engineer with 5+ years of experience in full-stack
         development.
         <br />
@@ -16,7 +16,7 @@ export default function TechStack() {
         dashboards, webviews, and CMS for SAWASDEE airport application.
       </div>
 
-      <div className="flex-1 flex flex-col text-left items-flex-start pb-105">
+      <div className="flex-1 flex flex-col text-left items-flex-start md:pb-105">
         <div className="text-mint text-l font-bold">Tech Stack</div>
         <div className="text-2m">
           Language: JavasScript, TypeScript

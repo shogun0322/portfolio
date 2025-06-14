@@ -47,7 +47,7 @@ export default function Work() {
         {work.map((row) => {
           const { image, title, description, link } = row;
           return (
-            <div className="archive-item-project cursor-pointer">
+            <div className="archive-item-project cursor-pointer" key={title}>
               <Image
                 loading="lazy"
                 src={image}

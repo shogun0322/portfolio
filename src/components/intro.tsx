@@ -2,7 +2,7 @@ export default function Intro() {
   return (
     <div className="container relative flex flex-col items-center justify-center text-center">
       <div className="z-[-1] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <div className="text-[37rem] bg-gradient-to-b from-[#0ECFCD] to-black bg-clip-text text-transparent font-bold">
+        <div className="flex flex-row gap-[0] text-[37rem] bg-gradient-to-b from-[#0ECFCD] to-black bg-clip-text text-transparent font-bold">
           5<span className="hidden md:block">+</span>
         </div>
       </div>

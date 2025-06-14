@@ -4,7 +4,7 @@ export default function Header({}) {
       <div className="flex flex-row gap-tiny text-m">
         <div className="font-semibold text-mint">{"_<"}</div>
         <div className="font-semibold">Panuwat Suwanritdej</div>
-        <div className="text-stone-400">Software Engineer</div>
+        <div className="text-stone-400 hidden md:block">Software Engineer</div>
       </div>
 
       <div className="flex flex-row items-center ml-auto">

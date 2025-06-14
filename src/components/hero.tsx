@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <div className="container">
+    <section className="container">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -27,8 +27,14 @@ export default function Hero() {
           applications.
         </div>
 
-        <button className="mint">Explore Projects</button>
+        <motion.button
+          className="mint"
+          whileHover={{ backgroundColor: "var(--gray)", color: "#fff" }}
+          transition={{ duration: 0 }}
+        >
+          <a href="#project"> Explore Projects</a>
+        </motion.button>
       </motion.div>
-    </div>
+    </section>
   );
 }

@@ -1,7 +1,7 @@
 export default function TechStack() {
   return (
-    <div className="container flex flex-row gap-large h-screen items-center">
-      <div className="flex-1 text-left text-l font-bold hidden md:block">
+    <section className="container flex flex-col md:flex-row gap-large h-screen items-center">
+      <div className="flex-1 text-left text-l font-bold  md:block">
         I’m a software engineer with 5+ years of experience in full-stack
         development.
         <br />
@@ -28,6 +28,6 @@ export default function TechStack() {
           Database: PostgreSQL, MongoDBTools: Docker, Git, Jest
         </div>
       </div>
-    </div>
+    </section>
   );
 }

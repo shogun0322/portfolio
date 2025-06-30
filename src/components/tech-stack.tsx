@@ -25,7 +25,9 @@ export default function TechStack() {
           <br />
           Back-end: Node.js, NestJS, GraphQL, Fastify
           <br />
-          Database: PostgreSQL, MongoDBTools: Docker, Git, Jest
+          Database: PostgreSQL, MongoDB
+          <br />
+          Tools: Docker, Git, Jest
         </div>
       </div>
     </section>

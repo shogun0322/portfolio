@@ -19,6 +19,7 @@ export default function Work() {
     [0, 0.2, 0.8, 1],
     [0.8, 1, 1, 0.8]
   );
+  
   const work = [
     {
       image: "/work/ml.webp",

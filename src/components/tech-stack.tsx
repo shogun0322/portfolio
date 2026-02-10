@@ -23,7 +23,7 @@ export default function TechStack() {
           <br />
           Front-end: React.js, Next.js, React Native,
           <br />
-          Back-end: Node.js, NestJS, GraphQL, Fastify
+          Back-end: Node.js, NestJS, GraphQL, Fastify, GO
           <br />
           Database: PostgreSQL, MongoDB
           <br />
